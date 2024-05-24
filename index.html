@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./menu-section.css" />
+    <link rel="stylesheet" href="./search-open.css">
+    <!-- <link rel="stylesheet" href="./vivo-section.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@700&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+  </head>
+  <script>
+    function showSearch(){
+      var element = document.getElementById("search-bar-open");
+      if(element.style.display = "none"){
+        element.style.display = "block";
+      }
+      var homeButton = document.getElementById("home-section");
+      if(homeButton.style.display != "" || homeButton.style.display != "none"){
+        homeButton.style.display = "none";
+      }
+    }
+    function hideSearch(){
+      var element = document.getElementById("search-bar-open");
+      if(element.style.display = "block"){
+        element.style.display = "none";
+      }
+      var homeButton = document.getElementById("home-section");
+      if(homeButton.style.display == "" || homeButton.style.display == "none"){
+        homeButton.style.display = "block";
+      }
+    }
+    function showMenu(){
+      var element = document.getElementById("menu-bar-open");
+      if(element.style.display = "none"){
+        element.style.display = "block";
+      }
+      var homeButton = document.getElementById("home-section");
+      if(homeButton.style.display != "" || homeButton.style.display != "none"){
+        homeButton.style.display = "none";
+      }
+    }
+    function hideMenu(){
+      var element = document.getElementById("menu-bar-open");
+      if(element.style.display = "block"){
+        element.style.display = "none";
+      }
+      var homeButton = document.getElementById("home-section");
+      if(homeButton.style.display == "" || homeButton.style.display == "none"){
+        homeButton.style.display = "block";
+      }
+    }
+    function displayCalendar(){
+      var calendar = document.getElementById("calendar-image");
+      calendar.style.display = "block";
+      var navBar = document.getElementById("navbar");
+      // navBar.style.zIndex = "-1";
+    }
+    function hideCalendar(){
+      var calendar = document.getElementById("calendar-image");
+      calendar.style.display = "none";
+    }
+    
+  </script>
+
+  <body>
+
+    <header class="Search_container">
+      <!-- <div class=""> -->
+        <div class="search-items">
+          <div class="search-bar">
+            <img src="./public/iconsystemsearch.svg">
+  
+            <div class="search-input">Search</div>
+          </div>
+        </div>
+
+      <!-- </div> -->
+    </header>
+    <div class="Main_div">
+      <!-- Menu bar starts -->
+      <div id="menu-bar-open" class="page-375-search-open1">
+        <img class="Left_image" src="./public/rectangle-1357@2x.png">
+        <section class="top-navigation">
+          <div class="m-header-group">
+            <div class="m-header3">
+              <img
+                class="iconsystemclose"
+                loading="lazy"
+                alt
+                src="./public/iconsystemclose.svg"
+                onclick=hideMenu() />
+            </div>
+            <div class="breadcrumb-navigation">
+              <div class="tntsportscomar-parent">
+                <a
+                  class="tntsportscomar"
+                  href="https://www.promiedos.com.ar/publicidad.php?op=1"
+                  target="_blank">tntsports.com.ar</a>
+                <img class="iconsystemchevron13" alt />
+              </div>
+              <div class="league-navigation">
+                <div class="destacado-parent">
+                  <b class="destacado">Destacado</b>
+                  <img
+                    class="iconsystemchevron14"
+                    loading="lazy"
+                    alt
+                    src="./public/iconsystemchevron-11.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent">
+                  <div class="copa-de-la">Copa de la Liga</div>
+                  <img
+                    class="iconsystemchevron15"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-group">
+                  <div class="copa-de-la1">Prim. B Nacional</div>
+                  <img
+                    class="iconsystemchevron16"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-container">
+                  <div class="copa-de-la2">Copa Argentina</div>
+                  <img
+                    class="iconsystemchevron17"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent1">
+                  <div class="copa-de-la3">Libertadores</div>
+                  <img
+                    class="iconsystemchevron18"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent2">
+                  <div class="copa-de-la4">Champions</div>
+                  <img
+                    class="iconsystemchevron19"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent3">
+                  <div class="copa-de-la5">Elim. Conmebol</div>
+                  <img
+                    class="iconsystemchevron20"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent4">
+                  <div class="copa-de-la6">Ranking Titulos</div>
+                  <img
+                    class="iconsystemchevron21"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+                <div class="copa-de-la-liga-parent5">
+                  <div class="copa-de-la7">Ranking Copas Int</div>
+                  <img
+                    class="iconsystemchevron22"
+                    alt
+                    src="./public/iconsystemchevron2.svg" />
+                </div>
+              </div>
+              <div class="breadcrumb-items">
+                <b class="argentina">Argentina</b>
+                <img
+                  class="iconsystemchevron23"
+                  alt
+                  src="./public/iconsystemchevron-6.svg" />
+              </div>
+              <div class="breadcrumb-items1">
+                <b class="copas-int">Copas Int.</b>
+                <img
+                  class="iconsystemchevron24"
+                  alt
+                  src="./public/iconsystemchevron-6.svg" />
+              </div>
+              <div class="breadcrumb-items2">
+                <b class="ligas">Ligas</b>
+                <img
+                  class="iconsystemchevron25"
+                  alt
+                  src="./public/iconsystemchevron-6.svg" />
+              </div>
+              <div class="breadcrumb-items3">
+                <b class="selecciones">Selecciones</b>
+                <img
+                  class="iconsystemchevron26"
+                  alt
+                  src="./public/iconsystemchevron-6.svg" />
+              </div>
+            </div>
+            <div class="horizontal-rule-parent">
+              <div class="horizontal-rule"></div>
+              <div class="comunidad-parent">
+                <h3 class="comunidad">COMUNIDAD</h3>
+                <h3 class="prodemios">PRODEMIOS</h3>
+                <h3 class="calendario">CALENDARIO</h3>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section class="contacto-parent">
+          <h3 class="contacto">CONTACTO</h3>
+          <div class="legal-rule-parent">
+            <div class="legal-rule"></div>
+            <div class="legal-privacidad-wrapper">
+              <b class="legal-privacidad">Legal - Privacidad</b>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Menu bar ends -->
+      <div class="Home_Page">
+        <div id="home-section" class="page-375" >
+
+          <main class="empty-list-parent">
+            <div class="empty-list">
+              <div class="main-container">
+                <div class="m-header">
+                  <img
+                    class="logo-white-icon"
+                    alt
+                    src="./public/logo-white.svg" />
+
+                  <div class="header-icons">
+                    <img
+                      class="iconsystemsearch"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemsearch.svg"
+                      onclick=showSearch() />
+
+                    <img
+                      class="iconsystemmenu"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemmenu.svg"
+                      onclick=showMenu() />
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <img class="top_image" src="./public/rectangle-1358@2x.png">
+            <section class="instance-wrapper">
+              <div class="matches-header-parent">
+                <div class="matches-header">
+                  <div class="component-2">
+                    <img
+                      class="iconsystemchevron"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron.svg" />
+
+                    <nav id="navbar" class="match-day-container">
+                      <b class="lun">LUN</b>
+                      <div class="match-notification">
+                        <b style="position: relative;" class="partidos-de-hoy"
+                          onclick=displayCalendar()>HOY</b>
+                        <div id="calendar-image" style="display: none;">
+                          <img src="./public/image-37@2x.png" alt
+                            onclick=hideCalendar()>
+                        </div>
+                        <img
+                          class="iconsystemtriangle"
+                          alt
+                          src="./public/iconsystemtriangle.svg" />
+                        </div>
+                        <b class="mie">MIE</b>
+
+                      </nav>
+
+                    </div>
+                    <img
+                      class="iconsystemchevron1"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron-1.svg" />
+                  </div>
+                </div>
+                <div class="separator-wrapper">
+                  <div class="separator"></div>
+                </div>
+                <div class="matches-header1">
+                  <div class="concacaf-champions">CONCACAF CHAMPIONS</div>
+                  <div class="frame-parent">
+                    <div class="tab-parent">
+                      <button class="tab">
+                        <b class="todos">TODOS</b>
+                      </button>
+                      <button class="tab1">
+                        <div class="buttons">
+                          <a href="./vivo-section.html"><b class="cuotas">VIVO
+                              (12)</b></a>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="buttons-parent">
+                      <button class="buttons1">
+                        <b class="cuotas1">CUOTAS</b>
+                      </button>
+                      <div class="buttons2">
+                        <img
+                          class="iconsystemnotification-off"
+                          loading="lazy"
+                          alt
+                          src="./public/iconsystemnotificationoff.svg" />
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            </section>
+            <div class="results-heading">
+              <b class="football-results-and">Football results and standings</b>
+            </div>
+            <section class="league-header-parent">
+              <div class="league-header">
+                <div class="champions-league-button">
+                  <div class="champions-league-link">
+                    <img
+                      class="iconsystemglobe"
+                      alt
+                      src="./public/iconsystemglobe.svg" />
+
+                    <b class="concacaf-champions1">CONCACAF CHAMPIONS</b>
+                  </div>
+                  <div class="notification-chevron">
+                    <img
+                      class="iconsystemnotification-off1"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemnotificationoff.svg" />
+
+                    <div class="notification-chevron-child"></div>
+                    <img
+                      class="iconsystemchevron2"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron-2.svg" />
+                  </div>
+                  <div class="text-sub">
+                    <b class="fecha-3">FECHA 3</b>
+                  </div>
+                  <div class="frame-group">
+                    <div class="ellipse-parent">
+                      <div class="frame-child"></div>
+                      <b class="goal-alert">GOAL ALERT</b>
+                    </div>
+                    <img
+                      class="line-mdswitch-icon"
+                      alt
+                      src="./public/linemdswitch.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="match-pod-container">
+                <div class="teams-container">
+                  <div class="m-team-pod">
+                    <b class="l">L</b>
+                    <div class="today">TODAY</div>
+                    <div class="team-flags">
+                      <img
+                        class="flagsteams-icon"
+                        alt
+                        src="./public/flagsteams@2x.png" />
+
+                      <img
+                        class="flagscountries-icon"
+                        alt
+                        src="./public/flagscountries@2x.png" />
+                    </div>
+                    <div class="uanl-tigers">UANL Tigers</div>
+                  </div>
+                  <div class="m-time-match">
+                    <b class="l1">L</b>
+                    <b class="today1">TODAY</b>
+                    <input class="time-container" type="checkbox" />
+
+                    <b class="time-placeholder">18:00</b>
+                  </div>
+                  <div class="m-team-pod1">
+                    <b class="l2">L</b>
+                    <div class="today2">TODAY</div>
+                    <div class="flagsteams-parent">
+                      <img
+                        class="flagsteams-icon1"
+                        alt
+                        src="./public/flagsteams-1@2x.png" />
+
+                      <img
+                        class="flagscountries-icon1"
+                        alt
+                        src="./public/flagscountries-1@2x.png" />
+                    </div>
+                    <div class="uanl-tigers1">Columbus Crew</div>
+                  </div>
+                </div>
+                <div class="sub-wrapper">
+                  <div class="sub">
+                    <b class="first-leg-columbus">First leg: Columbus Crew 1 - 1
+                      Tigres UANL</b>
+                  </div>
+                </div>
+              </div>
+              <button class="league-header1">
+                <div class="cta">
+                  <b class="button">página de pie de leage</b>
+                </div>
+                <div class="concacaf-champions2">CONCACAF CHAMPIONS</div>
+              </button>
+            </section>
+            <section class="second-league-header-parent">
+              <div class="second-league-header">
+                <div class="second-champions-league-button">
+                  <div class="second-champions-league-link">
+                    <img
+                      class="iconsystemglobe1"
+                      alt
+                      src="./public/iconsystemglobe.svg" />
+
+                    <b class="concacaf-champions3">CONCACAF CHAMPIONS</b>
+                  </div>
+                  <div class="second-notification-chevron">
+                    <img
+                      class="iconsystemnotification-off2"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemnotificationoff.svg" />
+
+                    <div class="second-notification-chevron-child"></div>
+                    <img
+                      class="iconsystemchevron3"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron-2.svg" />
+                  </div>
+                  <div class="text-sub1">
+                    <b class="fecha-31">FECHA 3</b>
+                  </div>
+                  <div class="frame-container">
+                    <div class="ellipse-group">
+                      <div class="frame-item"></div>
+                      <b class="goal-alert1">GOAL ALERT</b>
+                    </div>
+                    <img
+                      class="line-mdswitch-icon1"
+                      alt
+                      src="./public/linemdswitch.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="second-league-header1">
+                <div class="second-league-header-inner">
+                  <div class="m-team-pod-parent">
+                    <div class="m-team-pod2">
+                      <b class="l3">L</b>
+                      <div class="today3">TODAY</div>
+                      <div class="second-team-flags">
+                        <img
+                          class="flagsteams-icon2"
+                          alt
+                          src="./public/flagsteams@2x.png" />
+
+                        <img
+                          class="flagscountries-icon2"
+                          loading="lazy"
+                          alt
+                          src="./public/flagscountries@2x.png" />
+                      </div>
+                      <div class="uanl-tigers2">UANL Tigers</div>
+                    </div>
+                    <div class="m-time-match1">
+                      <b class="l4">L</b>
+                      <b class="today4">TODAY</b>
+                      <input class="second-time-container" type="checkbox" />
+
+                      <b class="time-separator">18:00</b>
+                    </div>
+                    <div class="m-team-pod3">
+                      <b class="l5">L</b>
+                      <div class="today5">TODAY</div>
+                      <div class="third-team-flags">
+                        <img
+                          class="flagsteams-icon3"
+                          alt
+                          src="./public/flagsteams-1@2x.png" />
+
+                        <img
+                          class="flagscountries-icon3"
+                          alt
+                          src="./public/flagscountries-1@2x.png" />
+                      </div>
+                      <div class="uanl-tigers3">Columbus Crew</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sub-container">
+                  <div class="sub1">
+                    <b class="first-leg-columbus1">First leg: Columbus Crew 1 -
+                      1 Tigres UANL</b>
+                  </div>
+                </div>
+              </div>
+              <div class="second-separator-wrapper">
+                <div class="second-separator"></div>
+              </div>
+              <div class="second-league-header2">
+                <div class="second-league-header-child">
+                  <div class="m-team-pod-group">
+                    <div class="m-team-pod4">
+                      <b class="l6">L</b>
+                      <div class="today6">TODAY</div>
+                      <div class="flagsteams-group">
+                        <img
+                          class="flagsteams-icon4"
+                          alt
+                          src="./public/flagsteams@2x.png" />
+
+                        <img
+                          class="flagscountries-icon4"
+                          alt
+                          src="./public/flagscountries@2x.png" />
+                      </div>
+                      <div class="uanl-tigers4">UANL Tigers</div>
+                    </div>
+                    <div class="m-time-match2">
+                      <b class="l7">L</b>
+                      <b class="today7">TODAY</b>
+                      <input class="frame-input" type="checkbox" />
+
+                      <b class="b">18:00</b>
+                    </div>
+                    <div class="m-team-pod5">
+                      <b class="l8">L</b>
+                      <div class="today8">TODAY</div>
+                      <div class="flagsteams-container">
+                        <img
+                          class="flagsteams-icon5"
+                          alt
+                          src="./public/flagsteams-1@2x.png" />
+
+                        <img
+                          class="flagscountries-icon5"
+                          alt
+                          src="./public/flagscountries-1@2x.png" />
+                      </div>
+                      <div class="uanl-tigers5">Columbus Crew</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sub-frame">
+                  <div class="sub2">
+                    <b class="first-leg-columbus2">First leg: Columbus Crew 1 -
+                      1 Tigres UANL</b>
+                  </div>
+                </div>
+              </div>
+              <button class="second-league-header3">
+                <div class="cta1">
+                  <b class="button1">página de pie de leage</b>
+                </div>
+                <div class="concacaf-champions4">CONCACAF CHAMPIONS</div>
+              </button>
+            </section>
+            <section class="third-league-header-parent">
+              <div class="third-league-header">
+                <div class="third-champions-league-button">
+                  <div class="third-champions-league-link">
+                    <img
+                      class="iconsystemglobe2"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemglobe.svg" />
+
+                    <b class="concacaf-champions5">CONCACAF CHAMPIONS</b>
+                  </div>
+                  <div class="third-notification-chevron">
+                    <img
+                      class="iconsystemnotification-off3"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemnotificationoff.svg" />
+
+                    <div class="third-notification-chevron-child"></div>
+                    <img
+                      class="iconsystemchevron4"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron-2.svg" />
+                  </div>
+                  <div class="text-sub2">
+                    <b class="fecha-32">FECHA 3</b>
+                  </div>
+                  <div class="frame-div">
+                    <div class="ellipse-container">
+                      <div class="frame-inner"></div>
+                      <b class="goal-alert2">GOAL ALERT</b>
+                    </div>
+                    <img
+                      class="line-mdswitch-icon2"
+                      alt
+                      src="./public/linemdswitch.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="third-match-pod-container">
+                <div class="third-teams-container">
+                  <div class="m-team-pod6">
+                    <b class="l9">L</b>
+                    <div class="today9">TODAY</div>
+                    <div class="fourth-team-flags">
+                      <img
+                        class="flagsteams-icon6"
+                        alt
+                        src="./public/flagsteams@2x.png" />
+
+                      <img
+                        class="flagscountries-icon6"
+                        alt
+                        src="./public/flagscountries@2x.png" />
+                    </div>
+                    <div class="uanl-tigers6">UANL Tigers</div>
+                  </div>
+                  <div class="m-time-match3">
+                    <b class="l10">L</b>
+                    <div class="live-time">
+                      <b class="live">VIVO</b>
+                    </div>
+                    <div class="separator-container-parent">
+                      <b class="separator-container">0</b>
+                      <input class="frame-input1" type="checkbox" />
+
+                      <b class="separator-container1">0</b>
+                    </div>
+                    <b class="b1">45+5’</b>
+                  </div>
+                  <div class="m-team-pod7">
+                    <b class="l11">L</b>
+                    <div class="today10">TODAY</div>
+                    <div class="flagsteams-parent1">
+                      <img
+                        class="flagsteams-icon7"
+                        alt
+                        src="./public/flagsteams-1@2x.png" />
+
+                      <img
+                        class="flagscountries-icon7"
+                        alt
+                        src="./public/flagscountries-1@2x.png" />
+                    </div>
+                    <div class="uanl-tigers7">Columbus Crew</div>
+                  </div>
+                </div>
+                <div class="sub-wrapper1">
+                  <div class="sub3">
+                    <b class="first-leg-columbus3">First leg: Columbus Crew 1 -
+                      1 Tigres UANL</b>
+                  </div>
+                </div>
+              </div>
+              <button class="third-league-header1">
+                <div class="cta2">
+                  <b class="button2">página de pie de leage</b>
+                </div>
+                <div class="concacaf-champions6">CONCACAF CHAMPIONS</div>
+              </button>
+            </section>
+            <section class="fourth-champions-league-contai">
+              <div class="fourth-champions-league-button-parent">
+                <div class="fourth-champions-league-button">
+                  <div class="fourth-champions-league-link">
+                    <div class="fifth-team-pod">
+                      <img
+                        class="iconsystemglobe3"
+                        loading="lazy"
+                        alt
+                        src="./public/iconsystemglobe.svg" />
+
+                      <b class="concacaf-champions7">CHAMPIONS LEAGUE</b>
+                    </div>
+                    <div class="match-info">
+                      <img
+                        class="iconsystemnotification-off4"
+                        loading="lazy"
+                        alt
+                        src="./public/iconsystemnotificationoff.svg" />
+
+                      <div class="match-info-child"></div>
+                      <img
+                        class="iconsystemchevron5"
+                        loading="lazy"
+                        alt
+                        src="./public/iconsystemchevron-2.svg" />
+                    </div>
+                    <div class="frame-parent1">
+                      <div class="ellipse-parent1">
+                        <div class="ellipse-div"></div>
+                        <b class="goal-alert3">GOAL ALERT</b>
+                      </div>
+                      <img
+                        class="line-mdswitch-icon3"
+                        alt
+                        src="./public/linemdswitch.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="fourth-champions-league-button1">
+                  <div class="frame-parent2">
+                    <div class="m-team-pod-container">
+                      <div class="m-team-pod8">
+                        <b class="l12">L</b>
+                        <div class="today11">TODAY</div>
+                        <div class="team-flags1">
+                          <img
+                            class="flagsteams-icon8"
+                            alt
+                            src="./public/flagsteams-8@2x.png" />
+
+                          <img
+                            class="flagscountries-icon8"
+                            loading="lazy"
+                            alt
+                            src="./public/flagscountries-8@2x.png" />
+                        </div>
+                        <div class="uanl-tigers8">Real Madrid</div>
+                      </div>
+                      <div class="m-time-match4">
+                        <b class="l13">L</b>
+                        <div class="match-live">
+                          <b class="live1">VIVO</b>
+                        </div>
+                        <div class="live-score">
+                          <b class="first-score">3</b>
+                          <input class="first-score-container"
+                            type="checkbox" />
+
+                          <b class="second-score">1</b>
+                        </div>
+                        <b class="b2">45+5’</b>
+                      </div>
+                      <div class="m-team-pod9">
+                        <b class="l14">L</b>
+                        <div class="today12">TODAY</div>
+                        <div class="team-content">
+                          <img
+                            class="flagsteams-icon9"
+                            alt
+                            src="./public/flagsteams-9@2x.png" />
+
+                          <img
+                            class="flagscountries-icon9"
+                            loading="lazy"
+                            alt
+                            src="./public/flagscountries-9@2x.png" />
+                        </div>
+                        <div class="uanl-tigers9">Manchester City</div>
+                      </div>
+                    </div>
+                    <div class="frame-parent3">
+                      <div class="players-wrapper">
+                        <div class="players">
+                          <div class="player-list">
+                            <div class="e-camavinga">
+                              <b>
+                                <span>12'</span>
+                              </b>
+                              <span class="e-camavinga1">
+                                <b> </b>
+                                <span>E. Camavinga; </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="players-child"></div>
+                          <div class="silva">
+                            <div class="b-silva">
+                              <b>2'</b>
+                              <span class="b-silva1">
+                                <span class="span"> </span>
+                                <span>B. Silva;</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="frame-button">
+                        <div class="sub4">
+                          <b class="first-leg-columbus4">Ida: Columbus Crew 1 -
+                            1 Tigres UANL</b>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="rectangle-wrapper">
+                  <div class="rectangle-div"></div>
+                </div>
+                <div class="fourth-champions-league-button2">
+                  <div class="frame-parent4">
+                    <div class="m-team-pod-parent1">
+                      <div class="m-team-pod10">
+                        <b class="l15">L</b>
+                        <div class="today13">TODAY</div>
+                        <div class="flagsteams-parent2">
+                          <img
+                            class="flagsteams-icon10"
+                            alt
+                            src="./public/flagsteams@2x.png" />
+
+                          <img
+                            class="flagscountries-icon10"
+                            loading="lazy"
+                            alt
+                            src="./public/flagscountries@2x.png" />
+                        </div>
+                        <div class="uanl-tigers10">UANL Tigers</div>
+                      </div>
+                      <div class="m-time-match5">
+                        <b class="l16">L</b>
+                        <div class="live-wrapper">
+                          <b class="live2">VIVO</b>
+                        </div>
+                        <div class="parent">
+                          <b class="b3">4</b>
+                          <input class="frame-input2" type="checkbox" />
+
+                          <b class="b4">1</b>
+                        </div>
+                        <b class="b5">45+5’</b>
+                      </div>
+                      <div class="m-team-pod11">
+                        <b class="l17">L</b>
+                        <div class="today14">TODAY</div>
+                        <div class="flagsteams-parent3">
+                          <img
+                            class="flagsteams-icon11"
+                            alt
+                            src="./public/flagsteams-1@2x.png" />
+
+                          <img
+                            class="flagscountries-icon11"
+                            loading="lazy"
+                            alt
+                            src="./public/flagscountries-1@2x.png" />
+                        </div>
+                        <div class="uanl-tigers11">Columbus Crew</div>
+                      </div>
+                    </div>
+                    <div class="frame-parent5">
+                      <div class="players-container">
+                        <div class="players1">
+                          <div class="e-camavinga-wrapper">
+                            <div class="e-camavinga2">
+                              <b>
+                                <span>12'</span>
+                              </b>
+                              <span class="e-camavinga3">
+                                <b> </b>
+                                <span>E. Camavinga; </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="players-item"></div>
+                          <div class="b-silva-wrapper">
+                            <div class="b-silva2">
+                              <b>2'</b>
+                              <span class="b-silva3">
+                                <span class="span1"> </span>
+                                <span>B. Silva;</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="sub-wrapper2">
+                        <div class="sub5">
+                          <b class="first-leg-columbus5">Ida: Columbus Crew 1 -
+                            1 Tigres UANL</b>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <button class="fourth-champions-league-button3">
+                  <div class="cta3">
+                    <b class="button3">página de pie de leage</b>
+                  </div>
+                  <div class="concacaf-champions8">CONCACAF CHAMPIONS</div>
+                </button>
+              </div>
+              <div class="globe-container">
+                <div class="globe-content">
+                  <div class="iconsystemglobe-parent">
+                    <img
+                      class="iconsystemglobe4"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemglobe.svg" />
+
+                    <b class="concacaf-champions9">CONCACAF CHAMPIONS</b>
+                  </div>
+                  <div class="notification-chevron1">
+                    <img
+                      class="iconsystemnotification-off5"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemnotificationoff.svg" />
+
+                    <div class="notification-chevron-item"></div>
+                    <img
+                      class="iconsystemchevron6"
+                      loading="lazy"
+                      alt
+                      src="./public/iconsystemchevron-6.svg" />
+                  </div>
+                  <div class="globe-content-child"></div>
+                </div>
+              </div>
+            </section>
+
+          </main>
+          <div class="day-container todo-items">
+            <b class="hoy-jueves-11">HOY Jueves 11 de Abril de 2024</b>
+            <div class="anniversary-container">
+              <b class="anniversaries">Anniversaries</b>
+              <div class="anniversary-content-wrapper">
+                <div class="anniversary-content">
+                  <div class="team-anniversary">
+                    <img
+                      class="flagsteams-icon12"
+                      loading="lazy"
+                      alt
+                      src="./public/flagsteams-12@2x.png" />
+
+                    <div class="team-info">
+                      <b class="everton-la-plata">Everton (La Plata - Bs.
+                        As.)</b>
+                      <div class="cumple-hoy-119-aos-desde">
+                        cumple hoy 119 años desde su fundación.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="birthday-container">
+              <b class="cumpleaos">Cumpleaños</b>
+              <div class="lucas-castro-container">
+                <div class="lucas-info-wrapper">
+                  <div class="lucas-info">
+                    <div class="nested-container">
+                      <div class="lucas-castro-parent">
+                        <b class="lucas-castro">Lucas Castro</b>
+                        <div class="gimnasia-lp-cumple-container">
+                          <span>(Gimnasia (LP)) cumple hoy </span>
+                          <b>35 años</b>
+                          <span>.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lucas-castro-container-inner">
+                  <div class="frame-wrapper">
+                    <div class="frame-wrapper1">
+                      <div class="lucas-castro-group">
+                        <b class="lucas-castro1">Facundo Cambeses</b>
+                        <div class="gimnasia-lp-cumple-container1">
+                          <span>(Racing Club) cumple hoy </span>
+                          <b>27 años</b>
+                          <span>.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="cta4">
+              <b class="button4">Calendario Extendido</b>
+            </button>
+          </div>
+        </div> 
+      </div>
+      <div class="Right_image">
+        <img src="./public/rectangle-1363@2x.png">
+      </div>
+
+    </div>
+<!-- Search Section Starts -->
+<div id="search-bar-open" class="page-375-search-open" style="display: none;">
+
+  <section class="page-375-search-open-inner">
+    <div class="m-header3">
+      <img
+        class="iconsystemclose"
+        loading="lazy"
+        alt
+        src="./public/iconsystemclose.svg"
+        onclick=hideMenu() />
+    </div>
+    <div class="m-header-parent">
+      <div class="m-header2">
+        <div class="header-icons2">
+          <img
+            class="iconsystemsearch2"
+            alt
+            src="./public/iconsystemsearch.svg" />
+
+          <div class="div">|</div>
+        </div>
+      </div>
+      <div class="header-content1">
+        <b class="solicitudes-recientes">Solicitudes recientes</b>
+        <div class="header-icons3">
+          <img
+            class="iconsystemsearch3"
+            loading="lazy"
+            alt
+            src="./public/iconsystemsearch.svg" />
+
+          <div class="los-goles-de">Los goles de Argentina</div>
+        </div>
+        <div class="header-icons4">
+          <img
+            class="iconsystemsearch4"
+            loading="lazy"
+            alt
+            src="./public/iconsystemsearch.svg" />
+
+          <div class="milter">Milter</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Search Section Ends -->
+  </body>
+</html>

@@ -1,0 +1,519 @@
+.iconsystemclose {
+  position: absolute;
+  top: 0;
+  left: 303px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.m-header3 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+}
+.tntsportscomar {
+  height: 17px;
+  width: 303px;
+  position: relative;
+  text-decoration: underline;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.iconsystemchevron13 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tntsportscomar-parent {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.destacado {
+  width: 303px;
+  position: relative;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.iconsystemchevron14 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.destacado-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  color: var(--original-palette-original-color-primary-default);
+  font-family: var(--heading-m-h4);
+}
+.copa-de-la {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron15 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la1 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron16 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la2 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron17 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la3 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron18 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la4 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron19 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la5 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron20 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la6 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron21 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.copa-de-la7 {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+}
+.iconsystemchevron22 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.copa-de-la-liga-parent5,
+.league-navigation {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.copa-de-la-liga-parent5 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.league-navigation {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-m);
+  font-family: var(--m-11px-caption-caption-reg);
+}
+.argentina {
+  width: 303px;
+  position: relative;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.iconsystemchevron23 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.breadcrumb-items,
+.copas-int {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb-items {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.copas-int {
+  width: 196px;
+  position: relative;
+  line-height: 17px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.iconsystemchevron24 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.breadcrumb-items1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.iconsystemchevron25,
+.ligas {
+  position: relative;
+  flex-shrink: 0;
+}
+.ligas {
+  width: 196px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.iconsystemchevron25 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+.breadcrumb-items2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.selecciones {
+  width: 196px;
+  position: relative;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.iconsystemchevron26 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.breadcrumb-items3,
+.breadcrumb-navigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.breadcrumb-navigation {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacing-m);
+}
+.horizontal-rule {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-bg);
+  box-sizing: border-box;
+}
+.calendario,
+.comunidad,
+.prodemios {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.comunidad-parent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.comunidad-parent,
+.horizontal-rule-parent,
+.m-header-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.horizontal-rule-parent {
+  align-self: stretch;
+  gap: 23px;
+  font-size: var(--heading-h3-size);
+}
+.m-header-group {
+  margin-bottom: -16px;
+  flex: 1;
+  gap: var(--gap-base);
+  max-width: calc(100% - 24px);
+  flex-shrink: 0;
+}
+.scrollbar-handle {
+  align-self: stretch;
+  width: 4px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #6faa54;
+}
+.scrollbar,
+.top-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.scrollbar {
+  margin-bottom: -1px;
+  height: 641px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-bg);
+  align-items: flex-start;
+  padding: 0 0 274.7px;
+  box-sizing: border-box;
+}
+.top-navigation {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--m-14px-body-text-body-bold-size);
+  color: var(--color-bg);
+  font-family: var(--heading-m-h4);
+}
+.contacto,
+.legal-rule {
+  align-self: stretch;
+  position: relative;
+}
+.contacto {
+  margin: 0;
+  height: 24px;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.legal-rule {
+  height: 1px;
+  border-top: 1px solid var(--color-bg);
+  box-sizing: border-box;
+}
+.legal-privacidad {
+  height: 17px;
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.legal-privacidad-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contacto-parent,
+.legal-rule-parent,
+.page-375-search-open1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.legal-rule-parent {
+  align-self: stretch;
+  gap: 15px;
+  max-width: 100%;
+  font-size: var(--m-14px-body-text-body-bold-size);
+}
+.contacto-parent,
+.page-375-search-open1 {
+  box-sizing: border-box;
+}
+.contacto-parent {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl) 0 0;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--color-bg);
+  font-family: var(--heading-m-h4);
+}
+.page-375-search-open1 {
+  /* width: 100%; */
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 0 var(--padding-5xl);
+  gap: 32px;
+  background-image: url(./public/page375searchopen@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
